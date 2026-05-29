@@ -58,8 +58,32 @@ Transform raw Q1 2025 transaction data into actionable insights for Product and 
 ## 🔬 Methodology
 **Calculated Fields in Tableau:** Status Category, Delivery Rate, Failure Rate, Hour of Day, Time Segment, Month, Total Revenue
 
----
 
+## 📊 Executive Dashboard
+
+Built an interactive executive-facing dashboard using **Tableau Public** 
+to monitor OCA Blast platform performance in real-time across all channels 
+and clients.
+
+**Dashboard Components:**
+| Component | Description |
+|-----------|-------------|
+| KPI Cards (5) | Total Messages, Delivery Rate, Failure Rate, Active Users, Total Revenue |
+| Messages per Channel | Bar chart — volume distribution across WhatsApp, SMS, Email, Call |
+| Delivery Effectiveness | 100% stacked bar — success vs. failure rate per channel |
+| Top Users by Volume | Horizontal bar — Top 10 clients ranked by transaction count |
+| Usage Trend | Line chart — monthly message volume per channel (Jan–Mar 2025)| Bar chart — message distribution by hour with time segment highlights |
+
+**Interactive Features:**
+- 🔴 **Channel Filter** — filters all visuals simultaneously by selected channel
+- 📅 **Month Filter** — narrows all charts to selected time period
+- 🖱️ **Click-to-filter** — clicking any bar in Messages per Channel filters the entire dashboard
+
+**Dashboard designed for:** Product and Business teams requiring 
+real-time visibility into platform delivery performance, revenue trends, 
+and client usage behavior.
+
+🔗 **[View Live Dashboard →](https://public.tableau.com/views/VI_OCA_FinalDashboard_AlbertusAriel/Dashboard1)**
 ## 📈 Key Findings
 
 ### Insight 1 — Channel Volume Distribution
